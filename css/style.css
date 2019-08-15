@@ -12,8 +12,7 @@
 
 @font-face {
   font-family: OpenSans;
-  src: url("../fonts/OpenSans-Regular.woff");
-  font-style: bold;
+  src: url("../fonts/OpenSans-Bold.woff");
   font-weight: bold;
 }
 
@@ -39,6 +38,8 @@ header {
 
 h1 {
 	text-transform: uppercase;
+	padding-top: 138px;
+	padding-bottom: 90px;
 }
 
 .be {
@@ -57,6 +58,39 @@ header h2 {
 		margin-right: auto;
 	}
 
+.buttons {
+    width: 86%;
+    text-align: center;
+    margin: auto;
+}
+
+.android, .apple {
+    background: #5c42b0;
+    color: white;
+    border-radius: 40px;
+    margin-top: 15px;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.android svg, .apple svg {
+	width: 24px;
+	height: 24px;
+}
+
+.download-link {
+	font-size: 8px;
+	width: 97px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.brand {
+	font-weight: bold;
+	display: block;
+}
 
 @media (max-width: 320px) {
 	header {
