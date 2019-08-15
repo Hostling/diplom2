@@ -92,6 +92,24 @@ header h2 {
 	display: block;
 }
 
+.athlets {
+	padding-top: 25px;
+	padding-bottom: 246px;
+	padding-left: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 50px;
+	color: #c1c1c1;
+}
+.athlets:before {
+    position: absolute;
+    z-index: 1;
+    content: "";
+    background: url("../images/footballer.png") no-repeat center;
+    width: 80%;
+    height: 450px;
+}
+
 @media (max-width: 320px) {
 	header {
 		background: url("../images/header_320.jpg");
