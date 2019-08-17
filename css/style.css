@@ -225,6 +225,40 @@ header h2 {
 	top: 54%;
 }
 
+footer {
+	background-color: #081640;
+	background-image: url("../images/footer_bg.png");
+}
+
+.artwork {
+	display: block;
+	width: 72px;
+	height: 75px;
+	margin: auto;
+	padding-top: 100px;
+	padding-bottom: 58px;
+}
+
+footer h2 {
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+
+footer h3 {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #8c80b1;
+	text-align: center;
+}
+
+footer .top_logo {
+	padding-top: 82px;
+	padding-bottom: 10px;
+}
+
 @media (max-width: 320px) {
 	header {
 		background: url("../images/header_320.jpg");
