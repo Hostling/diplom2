@@ -527,3 +527,295 @@ header h2 {
 		padding-bottom: 10px;
 	}
 }
+
+@media (min-width: 769px) {
+	header {
+		background: url("../images/football_1920.png");
+	}
+
+	.top-logo {
+	    width: 200px;
+    	height: 56px;
+    	fill: white;
+    	color: white;
+    	margin: auto;
+    	padding-top: 33px;
+    	display: block;
+	}
+
+	.be {
+		margin-left: 193px;
+		font-size: 90px;
+	}
+
+	.play {
+		margin-right: 20px;
+		margin-left: 29%;
+	}
+
+	h1 {
+		font-size: 90px;
+	}
+
+	.buttons {
+	    width: 86%;
+	    text-align: center;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 223px;
+	    display: flex;
+	    justify-content: center;
+	}
+
+	.android, .apple {
+	    background: #5c42b0;
+	    color: white;
+	    border-radius: 40px;
+	    margin-top: 15px;
+	    padding: 5px;
+	    text-decoration: none;
+	    width: 29%;
+	}
+
+	.apple {
+		margin-right: 25px;
+	}
+
+	.android {
+		margin-left: 25px;
+	}
+
+	.android svg, .apple svg {
+		width: 45px;
+		height: 45px;
+	}
+
+	.download-link {
+		font-size: 14px;
+		width: 144px;
+	    display: inline-block;
+	    text-transform: uppercase;
+	    text-align: left;
+	    padding-bottom: 15px;
+	    padding-left: 10px;
+	}
+
+	.brand {
+		font-weight: bold;
+		display: block;
+	}
+
+	.athlets, .players {
+		padding-bottom: 31px;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 80px;
+		color: #c1c1c1;
+	}
+
+	.athlets {
+		padding-left: 56%;
+	    padding-top: 120px;
+	}
+
+	.players {
+		padding-left: 5%;
+	}
+
+	.athlets ~ ol li, .players ~ ol li {
+		padding-top: 28px;
+		padding-bottom: 55px;
+	}
+
+	.athlets ~ ol li p, .players ~ ol li p {
+		margin-top: 28px;
+		font-size: 20px;
+		line-height: 18px;
+	}
+
+	.wrapper {
+		position: relative;
+	}
+
+	.athlets:before {
+	    position: absolute;
+	    z-index: 1;
+	    content: "";
+	    background: url("../images/footballer_1920.png") no-repeat;
+	    width: 40%;
+	    height: 1000px;
+	    left: 10%;
+	    top: 0;
+	}
+
+	.connection {
+		background-color: #fafafa;
+	}
+
+	.connection span, .connection h3, .collaboration span, .collaboration h3, .growth span, .growth h3 {
+		display: inline-block;
+	}
+
+	.numbers {
+		font-size: 18px;
+		border-bottom: solid 4px #5e42b0;
+		vertical-align: top;
+		font-weight: bold;
+	}
+
+	.connection h3, .collaboration h3, .growth h3, .be_active h3, .find_contact h3, .work_it h3 {
+		font-size: 36px;
+		text-transform: uppercase;
+		color: #c1c1c1;
+	}
+
+	.connection article, .collaboration article, .growth article {
+		margin-right: 20px;
+	}
+
+	.athlets ~ ol .connection article, .athlets ~ ol .collaboration article, .athlets ~ ol .growth article {
+		margin-left: 56%;
+	}
+
+	.players ~ ol .connection article, .players ~ ol .collaboration article, .players ~ ol .growth article {
+		margin-left: 5%;
+		width: 45%;
+	}
+
+	.players {
+		padding-top: 126px;
+	}
+
+	.collaboration {
+		background-color: #f5f2f9;
+	}
+
+	.growth {
+		background-color: #5c42b0;
+	}
+
+	.growth article p {
+		color: #fff;
+	}
+
+	.growth .numbers {
+		border-bottom: solid 4px #fff;
+	}
+
+	.players:before {
+		position: absolute;
+	    z-index: 1;
+	    content: "";
+	    background: url("../images/player_1920.png") no-repeat right;
+	    width: 100%;
+	    height: 810px;
+	    right: 0;
+	    top: 0;
+	}
+
+	.fifty {
+		width: 100%;
+	}
+
+	.players ~ ol li.growth .numbers {
+		color: #8765dd;
+	}
+
+	.players ~ ol li.growth {
+		background-color: #090c35;
+	}
+
+	.be_active, .find_contact, .work_it {
+		position: relative;
+		display: flex;
+		align-items: center;
+	}
+
+	.find_contact {
+		flex-direction: row-reverse;
+	}
+
+	.be_active article, .find_contact article, .work_it article {
+		width: 50%;
+	}
+
+	.be_active picture, .find_contact picture, .work_it picture {
+		width: 50%;
+	}	
+
+	.be_active h3, .find_contact h3, .work_it h3 {
+		margin-left: 10%;
+		font-size: 76px;
+	}
+
+	.be_active p, .find_contact p, .work_it p {
+		margin-left: 10%;
+		font-size: 24px;
+	}
+
+	.be_active article p {
+		padding-right: 75px;
+	}
+
+	.find_contact article p {
+		width: 78%;
+	}
+
+	.other_numbers {
+		position: absolute;
+		box-sizing: border-box;
+		background-color: #5e42b0;
+		width: 116px;
+		height: 116px;
+		padding-top: 31px;
+	    text-align: center;
+	    left: 46%;
+	}
+
+	.other_numbers span {
+		font-size: 24px;
+		border-bottom: solid 4px #8f7bc8;
+		color: #ffffff;
+	}
+
+	footer {
+		background-color: #081640;
+		background-image: url("../images/game_1920.png");
+	}
+
+	.artwork {
+		display: block;
+		width: 130px;
+		height: 130px;
+		margin: auto;
+	}
+
+	footer h2 {
+		font-size: 80px;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: #fff;
+		text-align: center;
+	}
+
+	footer h3 {
+		font-size: 30px;
+		text-transform: uppercase;
+		color: #8c80b1;
+		text-align: center;
+	}
+
+	footer .top-logo {
+		padding-top: 202px;
+		padding-bottom: 10px;
+	}
+
+	.footer-for-1920 {
+		display: inline-flex;
+		margin-top: 228px;
+	}
+
+	.footer-text {
+		margin-left: 20px;
+	}
+}

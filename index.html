@@ -115,7 +115,8 @@
 				<picture>
 					<source srcset="images/be_active.png" media="(max-width: 320px)">
 					<source srcset="images/be_active_768.jpg" media="(min-width: 321px) and (max-width: 768px)">
-					<img src="images/be_active.png" alt="be_active">
+					<source srcset="images/be_active_960.png" media="(min-width: 769px)">
+					<img src="images/be_active.png" alt="be_active" class="fifty">
 				</picture>
 				<article>
 					<div class="other_numbers">
@@ -129,7 +130,8 @@
 				<picture>
 					<source srcset="images/find_contact.png" media="(max-width: 320px)">
 					<source srcset="images/find_contact_768.jpg" media="(min-width: 321px) and (max-width: 768px)">
-					<img src="images/find_contact.png" alt="find_contact">
+					<source srcset="images/find_contact_960.png" media="(min-width: 769px)">
+					<img src="images/find_contact.png" alt="find_contact" class="fifty">
 				</picture>
 				<article>
 					<div class="other_numbers">
@@ -143,7 +145,8 @@
 				<picture>
 					<source srcset="images/work_it.png" media="(max-width: 320px)">
 					<source srcset="images/work_it_768.jpg" media="(min-width: 321px) and (max-width: 768px)">
-					<img src="images/work_it.png" alt="find_contact">
+					<source srcset="images/work_it_960.png" media="(min-width: 769px)">
+					<img src="images/work_it.png" alt="work_it" class="fifty">
 				</picture>
 				<article>
 					<div class="other_numbers">
@@ -156,13 +159,18 @@
 		</ol>
     </section>
     <footer class="wrapper">
-    	<picture class="artwork">
-			<source srcset="images/artwork.png" media="(max-width: 320px)">
-			<source srcset="images/artwork_768.png" media="(min-width: 321px) and (max-width: 768px)">
-			<img src="images/artwork.png">
-		</picture>
-    	<h2>download app</h2>
-    	<h3>show everyone what you can do!</h3>
+    	<div class="footer-for-1920">
+	    	<picture class="artwork">
+				<source srcset="images/artwork.png" media="(max-width: 320px)">
+				<source srcset="images/artwork_768.png" media="(min-width: 321px) and (max-width: 768px)">
+				<source srcset="images/artwork_1920.png" media="(min-width: 769px)">
+				<img src="images/artwork.png">
+			</picture>
+			<div class="footer-text">
+	    		<h2>download app</h2>
+	    		<h3>show everyone what you can do!</h3>
+	    	</div>
+    	</div>
     	<div class="buttons">
 			<a class="apple" href="#">
 				<svg fill="#ffffff" width="170px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 170" version="1.1" height="170px">
